@@ -7,6 +7,13 @@ Per poter stampare con Deliverart bisogna abilitare alcune funzionalità della s
 La prima cosa da fare è cercare l'IP della stampante, supponiamo che l'IP sia **192.168.1.10**.
 Fatta questa operazione, possiamo collegarci tramite un browser, ad esempio Chrome, all'indirizzo IP della stampante come segue: [https://192.168.1.10/](https://192.168.1.10/).
 
+Nel caso non sapessi qual'è l'indirizzo IP, è anche possibile stampare un documento che riporta tutti i dati della stampante.
+Basta seguire dei semplici passi:
+1. Spegnere la stampante
+2. Tenere premuto il pulsante FEED (cioè quello che fa uscire la carta)
+3. Mentre si tiene premuto il pulsante di FEED, accendere la stampante
+4. Dopo qualche secondo uscirà un foglio di carta con diversi dati stampati tra cui l'indirizzo IP ed il MAC Address.
+
 ## Certificato
 
 La stampante ha un certificato di sicurezza interno che non viene riconosciuto dal browser, questo significa che dobbiamo prima accettarlo per poter contunuare.
@@ -31,13 +38,13 @@ Una volta entrati avrete un pannello di controllo con questa interfaccia:
 
 ![Pannello della stampante](docs/img/print-panel.png)
 
-Sulla sinistra ci sono due menù, in alto la parte informativa: **Information**, più in basso, la parte delle impostazioni: **Configuration**.
+Sulla sinistra ci sono due menu, in alto la parte informativa: **Information**, più in basso, la parte delle impostazioni: **Configuration**.
 
 A questo punto dobbiamo completare due settaggi, il primo è abilitare le API della stampante, il secondo è disabilitare lo Stand by mode della stessa.
 
 ## Abilitare le API della stampante
 
-Dal menù di sinistra, sotto la voce in basso **Configuration** cliccare su **ePOS-Print**, comparirà una schermata come questa sotto.
+Dal menu di sinistra, sotto la voce in basso **Configuration** cliccare su **ePOS-Print**, comparirà una schermata come questa sotto.
 ![ePOS-Print](docs/img/epos-print.png)
 
 Modificare il valore di ePOS-Print *(1 nel cerchio rosso)* da **Disable** a **Enable**, vedi figura sotto:
@@ -58,7 +65,7 @@ Una volta finito comparirà la schermata di esito come quella in basso, cliccare
 
 ## Disabilitare lo Stand by Mode
 
-Dal menù di sinistra, sotto la voce in basso **Configuration** cliccare su **Advanced Settings**, si aprirà questa schermata.
+Dal menu di sinistra, sotto la voce in basso **Configuration** cliccare su **Advanced Settings**, si aprirà questa schermata.
 
 ![Config send](docs/img/advanced-settings.png)
 
