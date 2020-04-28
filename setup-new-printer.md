@@ -14,7 +14,6 @@ Basta seguire dei semplici passi:
 3. Mentre si tiene premuto il pulsante di FEED, accendere la stampante
 4. Dopo qualche secondo uscirà un foglio di carta con diversi dati stampati tra cui l'indirizzo IP ed il MAC Address.
 
-![IP](docs/img/IP printed.png)
 
 ## Certificato
 
